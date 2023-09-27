@@ -1,0 +1,72 @@
+#head{
+    background-color: #343b40;
+}
+
+.nav{
+    padding-top: 1.5%;
+}
+
+#logoCodoacodo{
+    width: 20%;
+}
+#conf{
+    color: azure;
+    font-size: 120%;
+}
+
+.nav-link:link {
+    color: #ffffff;
+  }
+  
+  .nav-link:visited {
+    color: #d66c6c;
+  }
+  
+  .nav-link:hover {
+    color: rgb(123, 126, 151);
+  }
+  
+  .nav-link:active {
+    color: rgb(14, 77, 45);
+  }
+  
+.carousel {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+
+.row.carousel {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  z-index: 1;
+  text-align: right;
+}
+
+.title p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.title button {
+  margin-right: 10px;
+}
+
+#carouselControls {
+  position: relative;
+  z-index: 0;
+}

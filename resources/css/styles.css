@@ -87,3 +87,31 @@
   position: relative;
   z-index: 0;
 }
+
+.card{
+  margin: 1%;
+  border-radius: 0;
+  padding: 0%;
+}
+
+.oradorImg{
+  width: 100%; /* Establece el ancho al 100% del contenedor */
+  height: 100%; /* Establece el alto al 100% del contenedor */
+}
+
+.detail{
+  padding: 5%;
+}
+
+.place{
+  background-color: #343b40;
+  color: azure;
+  padding: 1%;
+}
+.description{
+  padding: 3%;
+}
+
+#lugar .col-md-6 {
+  padding: 0;
+}

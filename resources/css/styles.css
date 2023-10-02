@@ -1,47 +1,46 @@
-#head{
-    background-color: #343b40;
+#head {
+  background-color: #343b40;
 }
 
-.nav{
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+.nav {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
 }
 
-#logoCodoacodo{
-    width: 20%;
+#logoCodoacodo {
+  width: 20%;
 }
-#conf{
-    color: azure;
-    font-size: 120%;
+#conf {
+  color: azure;
+  font-size: 120%;
 }
 
 .nav-link:link {
-    color: #ffffff;
-  }
-  
-  .nav-link:visited {
-    color: #d66c6c;
-  }
-  
-  .nav-link:hover {
-    color: rgb(123, 126, 151);
-  }
-  
-  .nav-link:active {
-    color: rgb(14, 77, 45);
-  }
-  
+  color: #ffffff;
+}
+
+.nav-link:visited {
+  color: #d66c6c;
+}
+
+.nav-link:hover {
+  color: rgb(123, 126, 151);
+}
+
+.nav-link:active {
+  color: rgb(14, 77, 45);
+}
+
 .carousel {
-    max-height: 500px;
-    overflow: hidden;
-  }
-  
-  .carousel img {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-  }
-  
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.carousel img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
 
 .row.carousel {
   position: relative;
@@ -73,7 +72,7 @@
   margin-bottom: 5px;
 }
 
-.oradoresTitle h6{
+.oradoresTitle h6 {
   display: block;
   margin-bottom: 1px;
   font-weight: 400;
@@ -88,31 +87,31 @@
   z-index: 0;
 }
 
-.card{
+.card {
   margin: 1%;
   border-radius: 0;
   padding: 0%;
 }
 
-.oradorImg{
+.oradorImg {
   width: 100%;
   height: 100%;
 }
 
-.detail{
+.detail {
   padding: 5%;
 }
 
-.place{
+.place {
   background-color: #343b40;
   color: azure;
   padding: 1%;
 }
-.description{
+.description {
   padding: 3%;
 }
 
-.moreButton{
+.moreButton {
   padding-top: 3%;
   padding-left: 0%;
 }
@@ -121,29 +120,29 @@
   padding: 0;
 }
 
-.dotted{
+.dotted {
   border-bottom: 3px dotted #000;
 }
 
-.textArea{
+.textArea {
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 0%;
 }
 
-.sendButton{
+.sendButton {
   background-color: #7db167;
   border: 0;
   height: 130%;
   font-size: 130%;
 }
 
-#serOrador{
+#serOrador {
   margin-bottom: 2%;
 }
 
-#footer{
-  background: linear-gradient(90deg, #283747, #2471A3);
+#footer {
+  background: linear-gradient(90deg, #283747, #2471a3);
   margin-bottom: 1%;
 }
 

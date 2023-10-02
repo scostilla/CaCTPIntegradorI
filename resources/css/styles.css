@@ -112,6 +112,11 @@
   padding: 3%;
 }
 
+.moreButton{
+  padding-top: 3%;
+  padding-left: 0%;
+}
+
 #lugar .col-md-6 {
   padding: 0;
 }

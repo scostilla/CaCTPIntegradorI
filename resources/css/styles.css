@@ -4,6 +4,7 @@
 
 .nav{
     padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 #logoCodoacodo{
@@ -64,6 +65,22 @@
 
 .title button {
   margin-right: 10px;
+}
+
+.oradoresTitle {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.oradoresTitle h6{
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 400;
+}
+
+.oradoresTitle h2 {
+  display: block;
 }
 
 #carouselControls {

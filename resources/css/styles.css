@@ -120,3 +120,7 @@
 #lugar .col-md-6 {
   padding: 0;
 }
+
+.dotted{
+  border-bottom: 3px dotted #000;
+}

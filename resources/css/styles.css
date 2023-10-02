@@ -95,8 +95,8 @@
 }
 
 .oradorImg{
-  width: 100%; /* Establece el ancho al 100% del contenedor */
-  height: 100%; /* Establece el alto al 100% del contenedor */
+  width: 100%;
+  height: 100%;
 }
 
 .detail{
@@ -123,4 +123,17 @@
 
 .dotted{
   border-bottom: 3px dotted #000;
+}
+
+.textArea{
+  margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.sendButton{
+  background-color: #88dc65;
+  border: 0;
+  height: 130%;
+  font-size: 130%;
 }

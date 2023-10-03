@@ -150,3 +150,16 @@
   color: #fff;
   transition: color 0.3s;
 }
+
+#footer ul {
+  margin-top: 8px;
+  padding-bottom: 0px;
+
+}
+
+.copyright{
+  text-align: center;
+  font-size: x-small;
+  color: azure;
+  padding-bottom: 5px;
+}

@@ -16,6 +16,11 @@
   font-size: 120%;
 }
 
+.btnBlur{
+  background-color: transparent;
+  backdrop-filter: blur(2px); 
+}
+
 .nav-link:link {
   color: #ffffff;
 }

@@ -14,10 +14,16 @@
 
 #logoCodoacodo {
   width: 20%;
+  margin-top: 5px;
 }
 #conf {
   color: azure;
   font-size: 120%;
+}
+
+.btnBlur{
+  background-color: transparent;
+  backdrop-filter: blur(2px); 
 }
 
 .nav-link:link {
@@ -159,6 +165,7 @@
 #footer ul {
   margin-top: 8px;
   padding-bottom: 0px;
+  font-size: small;
 
 }
 

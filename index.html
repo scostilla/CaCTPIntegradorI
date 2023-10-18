@@ -9,6 +9,12 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
   <link rel="stylesheet" href="./resources/css/bootstrap.min.js">
+  <script src="./resources/css/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="./resources/css/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
   <!-- CSS -->
   <link href="./resources/css/styles.css" rel="stylesheet">
@@ -19,11 +25,12 @@
     <header>
       <nav id="head">
         <div class="row">
-          <div class="col-xl-4 offset-xl-1">
-            <img src="./resources/images/codoacodo.png" alt="logoCodoaCodo" id="logoCodoacodo">
-            <span id="conf">Conf Bs As</span>
+          <div class="col-xl-2 offset-xl-1">
+            <a class="nav-link" href="./index.html">
+              <img src="./resources/images/codoacodo.png" alt="logoCodoaCodo" id="logoCodoacodo">
+              <span id="conf">Conf Bs As</span></a>
           </div>
-          <div class="col-xl-7">
+          <div class="col-xl-7 offset-xl-2">
             <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
@@ -38,7 +45,7 @@
                 <a class="nav-link" href="#serOrador">Convertite en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" disabled="true">Comprar Tickets</a>
+                <a class="nav-link" href="./buyTickets.html">Comprar Tickets</a>
               </li>
             </ul>
           </div>
@@ -210,9 +217,10 @@
             </ul>
           </div>
         </div>
-      <div class="copyright">.:: Sebastian R. Costilla - JAVA-FRONT END 2023 ::.</div>
+        <div class="copyright">.:: Sebastian R. Costilla - JAVA-FRONT END 2023 ::.</div>
       </nav>
     </footer>
   </div>
 </body>
+
 </html>

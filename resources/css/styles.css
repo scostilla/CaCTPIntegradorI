@@ -7,23 +7,22 @@
   padding-bottom: 1.5%;
 }
 
-.btnBlur{
+.btnBlur {
   background-color: transparent;
-  backdrop-filter: blur(2px); 
+  backdrop-filter: blur(2px);
 }
 
 #logoCodoacodo {
-  width: 20%;
-  margin-top: 5px;
+  width: 50%;
 }
 #conf {
   color: azure;
   font-size: 120%;
 }
 
-.btnBlur{
+.btnBlur {
   background-color: transparent;
-  backdrop-filter: blur(2px); 
+  backdrop-filter: blur(2px);
 }
 
 .nav-link:link {
@@ -166,12 +165,46 @@
   margin-top: 8px;
   padding-bottom: 0px;
   font-size: small;
-
 }
 
-.copyright{
+.copyright {
   text-align: center;
   font-size: x-small;
   color: azure;
   padding-bottom: 5px;
+}
+
+.student, .trainee, .junior{
+  border-style: solid;
+  margin: 4px;
+  border-width: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.student h5, .student h6,.trainee h5, .trainee h6,.junior h5, .junior h6 {
+  margin: 0;
+  line-height: 2.5;
+}
+
+.student{
+  border-color: blue;
+}
+
+
+
+.trainee{
+  border-color: green;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.junior{
+  border-color: orange;
+
 }

@@ -80,55 +80,77 @@
                 <h2>VALOR DE TICKET $200</h2>
             </div>
             <div class="row justify-content-center">
-                <form action="" class="text-center">
-                    <div class="row">
-                        <div class="col-3">
-                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nombre">
+                <div class="col-md-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="name" aria-describedby="name"
+                                placeholder="Nombre">
                         </div>
-                        <div class="col-3">
-                            <input type="text" class="form-control" id="lastName" aria-describedby="lastName" placeholder="Apellido">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
+                                placeholder="Apellido">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="mail" placeholder="Correo">
                         </div>
-                    </div>
+                        <div class="col-md-6">
+                            <label for="inputQuantity" class="form-label">Cantidad</label>
+                            <input type="text" class="form-control" id="inputQuantity">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCategory" class="form-label">Categoria</label>
+                            <select id="inputCategory" class="form-select">
+                                <option value="student" selected>Estudiante</option>
+                                <option value="trainee">Trainee</option>
+                                <option value="junior">Junior</option>
+                            </select>
+                        </div>
+                        <div class="alert alert-primary" role="alert">
+                            Total a pagar: $
+                          </div>
+                        <div class="col-12">
+                            <div class="d-flex col-12">
+                                <button class="btn btn-success w-50" type="button">Borrar</button>
+                                <button class="btn btn-success w-50" type="button">Resumen</button>
+                            </div>
+                        </div>
+                </div>
                 </form>
             </div>
-        </main>
-        <footer>
-            <nav id="footer">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <ul class="nav d-flex">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Preguntas Ferecuentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contáctanos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Prensa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Conferencias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Terminos y Condiciones</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Privacidad</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Estudiantes</a>
-                            </li>
-                        </ul>
-                    </div>
+    </div>
+    </main>
+    <footer>
+        <nav id="footer">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <ul class="nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Preguntas Ferecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prensa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conferencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terminos y Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Estudiantes</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="copyright">.:: Sebastian R. Costilla - JAVA-FRONT END 2023 ::.</div>
-            </nav>
-        </footer>
+            </div>
+            <div class="copyright">.:: Sebastian R. Costilla - JAVA-FRONT END 2023 ::.</div>
+        </nav>
+    </footer>
     </div>
 </body>
 

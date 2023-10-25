@@ -8,11 +8,25 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
-    <script src="./resources/css/popper.min.js"
+    <!-- <script src="./resources/css/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+
+    <script type="importmap">
+            {
+              "imports": {
+                "@popperjs/core": "./resources/css/popper.min.js",
+                "bootstrap": "./resources/css/bootstrap.esm.min.js"
+              }
+            }
+            </script>
+<!-- 
     <script src="./resources/css/bootstrap.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> -->
+
+    <script src="./resources/css/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
     <!-- CSS -->
@@ -83,7 +97,7 @@
                 <div class="col-md-6">
                     <form class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="name" aria-describedby="name"
+                            <input type="text" class="form-control" id="firstName" aria-describedby="name"
                                 placeholder="Nombre">
                         </div>
                         <div class="col-md-6">
@@ -91,27 +105,27 @@
                                 placeholder="Apellido">
                         </div>
                         <div class="col-12">
-                            <input type="text" class="form-control" id="mail" placeholder="Correo">
+                            <input type="email" class="form-control" id="mail" placeholder="Correo">
                         </div>
                         <div class="col-md-6">
                             <label for="inputQuantity" class="form-label">Cantidad</label>
-                            <input type="text" class="form-control" id="inputQuantity">
+                            <input type="number" class="form-control" id="inputQuantity">
                         </div>
                         <div class="col-md-6">
-                            <label for "inputCategory" class="form-label">Categoria</label>
+                            <label for="inputCategory" class="form-label">Categoria</label>
                             <select id="inputCategory" class="form-select">
                                 <option value="student" selected>Estudiante</option>
                                 <option value="trainee">Trainee</option>
                                 <option value="junior">Junior</option>
                             </select>
                         </div>
-                        <div class="alert alert-primary" role="alert">
-                            Total a pagar: $
+                        <div class="alert alert-primary" role="alert" id="total">
+                            <!-- total a pagar - aparece cuando el total es mayor a cero -->
                         </div>
                         <div class="col-12">
                             <div class="d-flex col-12">
-                                <button class="btn btn-success w-50 formbtn btnDelete" type="button">Borrar</button>
-                                <button class="btn btn-success w-50 formbtn btnResume" type="button">Resumen</button>
+                                <button class="btn btn-success w-50 formbtn btnDelete" type="button" onclick="clearForm()">Borrar</button>
+                                <button class="btn btn-success w-50 formbtn btnResume" type="button" onclick="calculateTotal()">Resumen</button>
                             </div>
                         </div>
                     </form>
@@ -152,6 +166,8 @@
             </nav>
         </footer>
     </div>
+    <script src="./resources/js/buyTickets.js"></script>
+    <!-- <script type="module" src="./resources/js/buyTickets.js"></script> -->
 </body>
 
 </html>
